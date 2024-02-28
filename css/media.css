@@ -41,7 +41,7 @@
     margin-bottom: 50px;
   }
   .sec3 .sec3_i .store .storeImgAll{
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(2,2sfr);
   }
 
   .sec4 .sec4_i>h2{
