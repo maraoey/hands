@@ -61,7 +61,9 @@
   h2{font-size: 35px;}
   h3{font-size: 25px;}
  
-
+  header{
+    height: 80px;
+  }  
   .header_i .menuB{
     display: block;
   }
