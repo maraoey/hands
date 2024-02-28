@@ -418,4 +418,5 @@ footer{
   position: fixed;
   right: 3vw;
   bottom: 50px;
+  padding: 0;
 }
