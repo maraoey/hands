@@ -15,40 +15,62 @@ $(function(){
   })
 
 
+
   
-  $("header nav .mainmenu li:nth-child(1)").on({
+  
+  $("header nav .mainmenu .m1, .sub").on({
     mouseover:function(){
-      $("header .sub1", this).css({display:'block'})
+      $(".sub1").stop().slideDown()
+      
     },
     mouseout:function(){
-      $("header .sub1",this).css({display:'none'})
+      $(".sub1").stop().slideUp()
     }
   })
 
-  $("header nav .mainmenu li:nth-child(2)").on({
+  $("header nav .mainmenu .m2, .sub").on({
     mouseover:function(){
-      $("header .sub2", this).css({display:'block'})
+      $(".sub2").stop().slideDown()
+      
     },
     mouseout:function(){
-      $("header .sub2",this).css({display:'none'})
+      $(".sub2").stop().slideUp()
     }
   })
 
-  $("header nav .mainmenu li:nth-child(3)").on({
+  $("header nav .mainmenu .m3, sub").on({
     mouseover:function(){
-      $("header .sub3", this).css({display:'block'})
+      $(".sub3").stop().slideDown()
+      
     },
     mouseout:function(){
-      $("header .sub3",this).css({display:'none'})
+      $(".sub3").stop().slideUp()
     }
   })
 
-  $("header nav .mainmenu li:nth-child(4)").on({
+  $("header nav .mainmenu .m4, .sub").on({
     mouseover:function(){
-      $("header .sub4", this).css({display:'block'})
+      $(".sub4").stop().slideDown()
+      
     },
     mouseout:function(){
-      $("header .sub4",this).css({display:'none'})
+      $(".sub4").stop().slideUp()
+    }
+  })
+
+
+
+
+
+  $(".menuB").on({
+    click:function(){
+      $(".mainM").css({left:'0'})
+    }
+  })
+
+  $(".mainM .close").on({
+    click:function(){
+      $(".mainM").css({left:'-150%'})
     }
   })
 
