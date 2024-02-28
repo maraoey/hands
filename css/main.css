@@ -209,7 +209,7 @@ section{
   position: relative;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .sec3_i h2{
   margin-bottom: 50px;
@@ -251,7 +251,7 @@ section{
   padding: 10px;
 }
 .sec3_i .sec3_2{
-  width: 600px;
+  width: 480px;
   /* background-color: beige; */
 }
 .sec3_i .sec3_2 .honors{
@@ -259,12 +259,12 @@ section{
   margin-bottom: 50px;
 }
 .sec3_i .sec3_2 .honors .iconall{
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(4,1fr);
 }
 .sec3_i .sec3_2 .honors .iconall .icon{
   width: 120px;
-  margin-right: 20px;
   margin-bottom: 20px;
 }
 .sec3_i .sec3_2 .honors .iconall .icon figure{
@@ -281,7 +281,7 @@ section{
 .sec3_i .sec3_2 .newsletter h2{
   margin-bottom: 30px;
 }
-.sec3_i .sec3_2 .newsletter p{
+.sec3_i .sec3_2 .newsletter>p{
   font-size: 18px;
 }
 .sec3_i .sec3_2 .newsletter .btn_sub{
@@ -294,6 +294,7 @@ section{
   background-color: #7a303f;
 }
 .sec3_i .sec3_2 .newsletter .btn_sub a{
+  display: block;
   line-height: 20px;
   color: #fff;
 }
