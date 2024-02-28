@@ -171,6 +171,8 @@ header .sub .sub_i .submenu li{
 
 
 
+
+
 section{
   width: 100%;
   margin: 100px 0;
@@ -312,9 +314,7 @@ section{
   display: flex;
   align-items: center;
 }
-.sec4 .sec4_i .hands .text{
-  padding-top: 40px;
-}
+
 .sec4 .sec4_i .hands h3{
   margin: 15px;
 }

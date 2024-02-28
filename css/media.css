@@ -43,6 +43,10 @@
   .sec3 .sec3_i .store .storeImgAll{
     grid-template-columns: repeat(2,2fr);
   }
+
+  .sec4 .sec4_i>h2{
+    font-size: 35px;
+  }
   .sec4 .sec4_i h2 br{
     display: none;
   }
@@ -52,11 +56,14 @@
   }
 }
 
+
 @media screen and (max-width:767px) {
-  h2{font-size: 32px;}
+  h2{font-size: 35px;}
   h3{font-size: 25px;}
  
-
+  header{
+    height: 80px;
+  }  
   .header_i .menuB{
     display: block;
   }
@@ -75,12 +82,18 @@
   }
   
   
+  .sec4 .sec4_i>h2{
+    font-size: 30px;
+  }
   .sec4 .sec4_i .hands{
     flex-direction: column;
     justify-content: center;
   }
   .sec4 .sec4_i .hands h3{
     text-align: center;
+  }
+  .sec4 .sec4_i .hands .text{
+    margin-top: 20px;
   }
   .sec5_i .goodsall{
     flex-direction: column;
@@ -113,11 +126,17 @@
     grid-template-columns: repeat(2,1fr);
     gap: 5%;
   }
+  .sec4_i>h2{
+    font-size: 28px;
+  }
   
 }
 
 
 @media screen and (max-width:400px) {
+  .sec4_i>h2{
+    font-size: 23px;
+  }
   .footer_i .f_center{
     flex-direction: column;
     align-items: baseline;
