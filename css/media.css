@@ -18,14 +18,14 @@
   }
 
 }
-@media screen and (max-width:1400px) {
+/* @media screen and (max-width:1400px) {
+} */
+@media screen and (max-width:1200px) {
+  
   .sec3_i .sec3_2{
     flex-direction: column;
     align-items: center;
   }
-}
-@media screen and (max-width:1200px) {
-  
   .sec3 .sec3_i .sec3_2 .honors,
   .sec3 .sec3_i .sec3_2 .newsletter{
     width: 90%;
@@ -39,7 +39,6 @@
     font-size: 13px;
   }
   .sec3 .sec3_i .store{
-    height: fit-content;
     margin-bottom: 50px;
   }
   .sec3 .sec3_i .store .storeImgAll{
@@ -69,17 +68,13 @@
 
   .sec3 .sec3_i .sec3_2 .honors,
   .sec3 .sec3_i .sec3_2 .newsletter{
-    width: 100%;
+    width: 90%;
   }
   
   .sec3 .sec3_i .store .storeImgAll{
     grid-template-columns: repeat(1,2fr);
   }
   
-  .sec3_i .sec3_2 .honors .iconall{
-    grid-template-columns: repeat(2,1fr);
-    gap: 5%;
-  }
   
   .sec4 .sec4_i .hands{
     flex-direction: column;
@@ -91,7 +86,7 @@
   .sec5_i .goodsall{
     flex-direction: column;
   }
- 
+  
   .sec5_i .goodsall .goods figure,
   .sec5_i .goodsall .goods p{
     display: none;
@@ -110,16 +105,20 @@
 }
 
 @media screen and (max-width:575px) {
-  h2{font-size: 25px;}
+  h2{font-size: 29px;}
   h3{font-size: 23px;}
-  .sec3_i{
+  .sec3 .sec3_i{
     width: 100%;
   }
+  .sec3_i .sec3_2 .honors .iconall{
+    grid-template-columns: repeat(2,1fr);
+    gap: 5%;
+  }
+  
 }
 
 
 @media screen and (max-width:400px) {
-  
   .footer_i .f_center{
     flex-direction: column;
     align-items: baseline;
@@ -128,4 +127,5 @@
   .footer_i .f_center .f_logo{
     margin-bottom: 30px;
   }
+
 }

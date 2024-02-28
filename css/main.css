@@ -205,7 +205,7 @@ section{
 .sec3_i{
   width: 100%;
   background-color: #f6cd6a;
-  padding: 100px;
+  padding: 100px 5%;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -216,7 +216,7 @@ section{
 }
 .sec3_i .store{
   max-width: 1000px;
-  height: 600px;  
+  margin-bottom: 50px;
 }
 .sec3_i .store .storeImgAll{
   width: 100%;
