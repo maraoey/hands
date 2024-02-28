@@ -364,14 +364,12 @@ footer{
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  font-weight: 800;
 }
 .footer_i .f_top .ftleft a{
-  font-weight: 800;
   margin-right: 50px;
 }
-.footer_i .F_top .ftright a{
-  font-weight: 800;
-}
+
 .footer_i .f_center{
   width: 100%;
   /* height: 50px; */
