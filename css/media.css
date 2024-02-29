@@ -125,7 +125,8 @@
 @media screen and (max-width:575px) {
   h2{font-size: 29px;}
   h3{font-size: 23px;}
-  p{font-size:12px;}
+  p{font-size: 12px;}
+  
   .sec3 .sec3_i{
     width: 100%;
   }
