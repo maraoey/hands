@@ -64,13 +64,13 @@ $(function(){
 
   $(".menuB").on({
     click:function(){
-      $(".mainM").css({left:'0'})
+      $(".mainM").css({right:'0'})
     }
   })
 
   $(".mainM .close").on({
     click:function(){
-      $(".mainM").css({left:'-150%'})
+      $(".mainM").css({right:'-100%'})
     }
   })
 
