@@ -58,6 +58,30 @@ $(function(){
     }
   })
 
+  $(".s_classic").on({
+    mouseover:function(){
+      $(".s_classic a span, .s_classic a h3").css({display:'block'})
+    },
+    mouseout:function(){
+      $(".s_classic a span, .s_classic a h3").css({display:'none'})
+    }
+  })
+  $(".s_flagship").on({
+    mouseover:function(){
+      $(".s_flagship a span, .s_flagship a h3").css({display:'block'})
+    },
+    mouseout:function(){
+      $(".s_flagship a span, .s_flagship a h3").css({display:'none'})
+    }
+  })
+  $(".s_archin").on({
+    mouseover:function(){
+      $(".s_archin a span, .s_archin a h3").css({display:'block'})
+    },
+    mouseout:function(){
+      $(".s_archin a span, .s_archin a h3").css({display:'none'})
+    }
+  })
 
 
 
