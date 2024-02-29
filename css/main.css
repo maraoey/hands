@@ -135,7 +135,7 @@ header .header_i .login a:last-of-type{
   flex-direction: column;
   position: fixed;
   top: 0;
-  left: -150%;
+  right: -100%;
   z-index: 999;
   background-color: #f6cd6a;
   color: #7a303f;
@@ -170,17 +170,7 @@ header .header_i .login a:last-of-type{
 .mainM .mainmenu{
   padding-left: 10px;
 }
-/* .mainM .close{
-  position: absolute;
-  right: 10%;
-  top: 10%;
-  color: #333;
-  border: none;
-  background-color: transparent;
-} */
-/* .mainM ul{
-  padding: 30px 5px;
-} */
+
 .mainM ul li{
   margin: 30px 0;
   font-size: 18px;
