@@ -28,11 +28,29 @@
   .sec3 .sec3_i .sec3_2 .honors,
   .sec3 .sec3_i .sec3_2 .newsletter{
     width: 80%;
+    text-align: center;
   }
+  .sec3 .sec3_i .sec3_2 .honors .iconall .icon{
+    margin: auto;
+  }
+  .sec3 .sec3_i .sec3_2 .newsletter .btn_sub{
+    margin: 30px auto;
+  }
+  
+
   .sec4 .sec4_i>h2{
     font-size: 35px;
   }
   .sec5_i .goodsall .goods .title p{
+    display: none;
+  }
+}
+@media screen and (max-width:1024px) {
+  .header_i .menuB{
+    display: block;
+  }
+  .header_i nav,
+  .header_i .login{
     display: none;
   }
 }
@@ -68,13 +86,7 @@
   header{
     height: 80px;
   }  
-  .header_i .menuB{
-    display: block;
-  }
-  .header_i nav,
-  .header_i .login{
-    display: none;
-  }
+  
 
   .sec3 .sec3_i .sec3_2 .honors,
   .sec3 .sec3_i .sec3_2 .newsletter{
@@ -126,7 +138,7 @@
   h2{font-size: 29px;}
   h3{font-size: 23px;}
   p{font-size: 13px;}
-  
+
   .sec3 .sec3_i{
     width: 100%;
   }
