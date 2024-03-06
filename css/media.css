@@ -134,7 +134,6 @@
   
 }
 
-
 @media screen and (max-width:575px) {
   h2{font-size: 29px;}
   h3{font-size: 23px;}
@@ -169,6 +168,18 @@
 
 }
 
-@media screen and (min-height:600px){
-  
+@media screen and (max-height:600px) {
+  .mainM{
+    padding: 35px 20px;
+  }
+  .mainM .menuTop{
+    margin-bottom: 10px;
+  }
+  .mainM .login2{
+    margin-bottom: 20px;
+  }
+  .mainM ul li{
+    margin: 25px 0;
+    
+  }
 }
