@@ -351,6 +351,9 @@ section{
   align-items: flex-end;
   padding-bottom: 15px;
 }
+.sec5_i .goodsall .goods .title h3 span{
+  display: none
+}
 .sec5_i .goodsall .goods .line{
   width: 100%;
   height: 3px;
@@ -365,6 +368,7 @@ section{
 .sec5_i .goodsall .goods>p{
   text-align: center;
 }
+
 
 footer{
   width: 100%;

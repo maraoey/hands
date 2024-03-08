@@ -114,11 +114,21 @@
   .sec5_i .goodsall{
     flex-direction: column;
   }
-  
   .sec5_i .goodsall .goods figure,
   .sec5_i .goodsall .goods p{
     display: none;
   }
+  .sec5_i .goodsall .goods .title h3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+  }
+  .sec5_i .goodsall .goods .title h3 span{
+    display: block;
+  }
+
+
   .footer_i .f_top{
     flex-direction: column;
   }
