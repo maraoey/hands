@@ -25,7 +25,7 @@ $(function(){
   
   
   
-  $("header nav .mainmenu .m1, .sub").on({
+  $("header nav .mainmenu .m1, .sub1").on({
     mouseover:function(){
       $(".sub1").stop().slideDown()
       
@@ -35,7 +35,7 @@ $(function(){
     }
   })
   
-  $("header nav .mainmenu .m2, .sub").on({
+  $("header nav .mainmenu .m2, .sub2").on({
     mouseover:function(){
       $(".sub2").stop().slideDown()
       
@@ -45,7 +45,7 @@ $(function(){
     }
   })
   
-  $("header nav .mainmenu .m3, sub").on({
+  $("header nav .mainmenu .m3, .sub3").on({
     mouseover:function(){
       $(".sub3").stop().slideDown()
       
@@ -55,7 +55,7 @@ $(function(){
     }
   })
   
-  $("header nav .mainmenu .m4, .sub").on({
+  $("header nav .mainmenu .m4, .sub4").on({
     mouseover:function(){
       $(".sub4").stop().slideDown()
       
@@ -90,6 +90,8 @@ $(function(){
     }
   })
   
+  
+
   
   
   

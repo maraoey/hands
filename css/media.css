@@ -129,17 +129,19 @@
   }
 
 
-  .footer_i .f_top{
+  /* .footer_i .f_top{
     flex-direction: column;
-  }
+  } */
   .footer_i .f_top .ftleft{
     margin-bottom: 30px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+    /* justify-content: space-between; */
   }
-  .footer_i .f_top .ftleft a{
+  /* .footer_i .f_top .ftleft a{
     margin-right: 0;
-  }
+  } */
 
   
 }
